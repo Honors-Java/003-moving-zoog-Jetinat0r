@@ -25,10 +25,10 @@ void draw() {
 
   // remove the forward slashes in front of each line of code below one at a time. Remove the underline and replace with the proper code to allow your mouse to move Zoog around  💻
 
-  //ellipse(__________, __________,16,32);
-  //ellipse(__________, __________,16,32);
+  ellipse(mouseX - 10, mouseY - 30,16,32);
+  ellipse(mouseX + 10, mouseY - 30,16,32);
   // Draw Zoog's legs
   stroke(0);
-  //line(_________, __________, __________, __________);
-  //line(__________, __________, __________, __________);
+  line(mouseX - 10, mouseY + 50, mouseX - 20, mouseY + 60);
+  line(mouseX + 10, mouseY + 50, mouseX + 20, mouseY + 60);
 }
